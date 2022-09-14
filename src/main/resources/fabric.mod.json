@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pigmod",
+  "version": "${version}",
+  "name": "Pig Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pigmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sharpmars.pigmod.PigMod"
+    ]
+  },
+  "mixins": [
+    "pigmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
